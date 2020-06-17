@@ -17,4 +17,7 @@ const testMakePerson_2 = (): void => {
     console.log(jane, jack)
 }
 
+for (let name of ['Jone', 'Sangmin', 'Sukim'])
+    console.log(name);
+
 testMakePerson_2()

@@ -6,7 +6,7 @@
  * @flow strict-local
  */
 
-import React, {Fragment} from 'react';
+import React from 'react';
 import Styled from 'styled-components/native';
 import Counter from '~/Screens/counter';
 
@@ -18,7 +18,7 @@ const Container = Styled.View`
 const App = () => {
   return (
     <Container>
-      <Counter title="This is a Counter App" initValue={6} />
+      <Counter title="This is a Counter App Test" initValue={6} />
     </Container>
   );
 };
